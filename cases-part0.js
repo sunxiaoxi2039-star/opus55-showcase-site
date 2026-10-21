@@ -1,5 +1,5 @@
 window.CASE_PARTS = window.CASE_PARTS || [];
-window.CASE_PARTS.push(JSON.parse(
+window.CASE_PARTS.push(
 "[{\"slug\":\"anything2explainer\",\"title\":\"anything2explainer\",\"title_zh\":\"丢给它一个话题，还你一支带配音的科普讲解片\",\"o" +
 "ne_liner_zh\":\"一个 Claude Code / Codex skill：输入任何话题或文章，agent 调研 → 写稿 → 配音 → 分镜 → 多 agent 并行逐 shot " +
 "构建 → QC，交付 2–8 分钟带 TTS 旁白、逐词字幕与章节进度条的 Remotion 讲解片。\",\"category\":\"tool\",\"tags\":[\"agent skill\",\"科普" +
@@ -434,10 +434,10 @@ window.CASE_PARTS.push(JSON.parse(
 "境音的质量很依赖模板本身预置的「技能」文件；脱离官方模板、完全自由发挥的主题，效果不一定能达到这条推文演示的水准。\",\"推文没有公开具体是哪几条提示词、用的是哪个 agent harness（" +
 "Claude Code、claude.ai 还是 API），复现时的确切指令和运行环境只能参考本页的推断内容。\"],\"time_and_cost\":\"作者没有公开这条演示具体花了多少时间或 t" +
 "oken/费用，只强调「a couple of prompts」说明交互轮次很少；可比对的公开数字是 CoAnimator 官方定价：本地渲染不限次数、免费版导出 720p 带水印，一次性 9" +
-"99 美元（第三方评测记录的限时价，原价 249 美元）解锁 4K、去水印与调研模式，这是产品本身的价格而非这条演示的实际花费。\",\"screenshot\":\"shots/coanimator-" +
+"9 美元（第三方评测记录的限时价，原价 249 美元）解锁 4K、去水印与调研模式，这是产品本身的价格而非这条演示的实际花费。\",\"screenshot\":\"shots/coanimator-" +
 "app.jpg\",\"evidence\":[{\"url\":\"https://x.com/rege_dev/status/2102498682931441977\",\"quote\":\"Claude " +
 "Opus 5.5 is insanely good — just a couple of prompts.\"},{\"url\":\"https://coanimator.com/\",\"quote\"" +
 ":\"Bring your own Claude Code, Codex, Antigravity or OpenClaw.\"},{\"url\":\"https://dev.to/1geek/coa" +
 "nimator-review-5714\",\"quote\":\"Any AI agent that can read files and run shell commands can be the" +
 " co-animator.\"}],\"see_zh\":null,\"post_url\":null,\"status\":\"verified\",\"verified_at\":\"2026-09-27\",\"r" +
-"eviewed_at\":\"2026-09-27\",\"no\":9}]));
+"eviewed_at\":\"2026-09-27\",\"no\":9}]");
