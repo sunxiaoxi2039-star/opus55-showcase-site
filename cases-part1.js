@@ -1,1 +1,2 @@
-<REDACTED_CASES_PART1>
+window.CASE_PARTS = window.CASE_PARTS || [];
+window.CASE_PARTS.push(<REDACTED_CASES_JSON_1>)
